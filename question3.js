@@ -9,7 +9,7 @@ fetch("https://api.rawg.io/api/games/4200")
 function createGameDetails(detail) {
     console.log("game", detail);
 
-    var image = detail.background_image ?
+    const image = detail.background_image ?
         detail.background_image :
         detail.background_image_additional;
 
