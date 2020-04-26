@@ -14,7 +14,6 @@ function createGameDetails(detail) {
         detail.background_image_additional;
 
     document.querySelector(".image").style.backgroundImage = `url('${image}')`;
-    document.querySelector(".description").innerHTML =
-        detail.description;
+    document.querySelector(".description").innerHTML = detail.description;
     document.querySelector("h1").innerHTML = detail.name;
 }
